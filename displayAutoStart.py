@@ -12,6 +12,7 @@ import signal
 URL = '"youtube.com"'
 #The path for the temporary profiles
 USR_DATA_DIR_PATH = "/tmp/tmpChromiumProfile"
+UPDATE_TIME = 5
 
 
 print("Python display script started")
@@ -105,4 +106,4 @@ while True:
 			screen_counter += 1
 
 
-	time.sleep(5)
+	time.sleep(UPDATE_TIME)
